@@ -3,6 +3,8 @@
   :url "https://github.com/cyverse-de/service-logging"
   :license {:name "BSD"
             :url "http://iplantcollaborative.org/sites/default/files/iPLANT-LICENSE.txt"}
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]]
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.logging "0.3.1"]       ; exported
                  [cheshire "5.5.0"]
