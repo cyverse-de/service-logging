@@ -14,4 +14,6 @@ pom.xml.asc
 /.classpath
 /.project
 /bin
+build.xml
+test2junit
 Jenkinsfile
