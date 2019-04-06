@@ -33,8 +33,7 @@
 
 (defn- clean-response
   [response]
-  (dissoc response
-          :body))
+  (select-keys response [:status :headers]))
 
 (defn log-request
   [{:keys [request-method uri] :as request}]
