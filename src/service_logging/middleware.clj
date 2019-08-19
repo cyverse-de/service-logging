@@ -24,6 +24,7 @@
   (dissoc request
           :body
           :params
+          :async-channel
           :user-info
           :user-attributes
           :compojure.api.middleware/options
