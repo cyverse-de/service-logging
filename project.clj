@@ -1,4 +1,4 @@
-(defproject org.cyverse/service-logging "2.8.3"
+(defproject org.cyverse/service-logging "2.8.4-SNAPSHOT"
   :description "Common Logging Utilities for Clojure Projects"
   :url "https://github.com/cyverse-de/service-logging"
   :license {:name "BSD"
