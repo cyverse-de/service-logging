@@ -8,13 +8,13 @@
   :plugins [[test2junit "1.2.2"]]
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.logging "0.3.1"]       ; exported
-                 [cheshire "5.5.0"]
+                 [cheshire "5.10.0"]
                  [slingshot "0.12.2"]
-                 [ch.qos.logback/logback-classic "1.1.3"]
-                 [org.slf4j/jcl-over-slf4j "1.7.13"]
-                 [net.logstash.logback/logstash-logback-encoder "4.5.1"]
-                 [com.fasterxml.jackson.core/jackson-core "2.5.1"]
-                 [com.fasterxml.jackson.core/jackson-databind "2.5.1"]
-                 [com.fasterxml.jackson.core/jackson-annotations "2.5.1"]
-                 [com.fasterxml.jackson.dataformat/jackson-dataformat-cbor "2.5.1"]
-                 [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.5.1"]])
+                 [ch.qos.logback/logback-classic "1.2.5"]
+                 [org.slf4j/jcl-over-slf4j "1.7.32"]
+                 [net.logstash.logback/logstash-logback-encoder "6.6"]
+                 [com.fasterxml.jackson.core/jackson-core "2.10.2"]
+                 [com.fasterxml.jackson.core/jackson-databind "2.10.2"]
+                 [com.fasterxml.jackson.core/jackson-annotations "2.10.2"]
+                 [com.fasterxml.jackson.dataformat/jackson-dataformat-cbor "2.10.2"]
+                 [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.10.2"]])
