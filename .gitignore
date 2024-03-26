@@ -4,6 +4,7 @@ pom.xml.asc
 /lib/
 /classes/
 /target/
+.eastwood
 .lein-deps-sum
 .lein-failures
 .lein-repl-history
