@@ -4,6 +4,7 @@ pom.xml.asc
 /lib/
 /classes/
 /target/
+.eastwood
 .lein-deps-sum
 .lein-failures
 .lein-repl-history
@@ -16,3 +17,5 @@ pom.xml.asc
 /bin
 build.xml
 test2junit
+.clj-kondo
+.lsp
